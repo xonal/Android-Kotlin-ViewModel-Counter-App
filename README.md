@@ -30,7 +30,7 @@ Therefore it should be maintain with **viewModel**
 ## Implementation ViewModel
 
 ```
-    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
     implementation "androidx.lifecycle:lifecycle-viewmodel:2.2.0"
 ```
 
