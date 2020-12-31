@@ -27,6 +27,12 @@ Therefore it should be maintain with **viewModel**
   <img width="700" height="370" src="https://user-images.githubusercontent.com/34072106/103391941-71ede080-4ad0-11eb-91b4-405f3687638c.png">
 </p>
 
+## Initialize ViewModel
+
+```
+val viewModel = ViewModelProvider(this).get(ActivityViewModel::class.java) //initialize viewModel
+```
+
 ## Reference
 
 [Youtube Stevdza-San](https://www.youtube.com/channel/UCYLAirIEMMXtWOECuZAtjqQ)
