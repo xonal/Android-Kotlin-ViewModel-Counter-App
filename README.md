@@ -27,10 +27,17 @@ Therefore it should be maintain with **viewModel**
   <img width="700" height="370" src="https://user-images.githubusercontent.com/34072106/103391941-71ede080-4ad0-11eb-91b4-405f3687638c.png">
 </p>
 
+## Implementation ViewModel
+
+```
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation "androidx.lifecycle:lifecycle-viewmodel:2.2.0"
+```
+
 ## Initialize ViewModel
 
 ```
-val viewModel = ViewModelProvider(this).get(ActivityViewModel::class.java) //initialize viewModel
+    val viewModel = ViewModelProvider(this).get(ActivityViewModel::class.java) //initialize viewModel
 ```
 
 ## Reference
