@@ -21,13 +21,18 @@ class MainActivity : AppCompatActivity() {
         textTimer.text = viewModel.number.toString() //set text timer with number variable in viewModel
 
         btnAdd.setOnClickListener { //action click to add number
-            viewModel.addNumber() //call function addNumber() in viewModel
-            textTimer.text = viewModel.number.toString() //set text timer with number variable in viewModel
+            if (viewModel.number != null){
+                viewModel.addNumber() //call function addNumber() in viewModel
+                textTimer.text = viewModel.number.toString() //set text timer with number variable in viewModel
+            }
+
         }
 
         btnReset.setOnClickListener {
-            viewModel.resetNumber() //call function resetNumber() in viewModel
-            textTimer.text = viewModel.number.toString() //set text timer with number variable in viewModel
+            if (viewModel.number != null){
+                viewModel.resetNumber() //call function resetNumber() in viewModel
+                textTimer.text = viewModel.number.toString() //set text timer with number variable in viewModel
+            }
         }
 
     }
